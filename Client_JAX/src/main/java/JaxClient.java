@@ -1,7 +1,6 @@
 import proxy.BanqueService;
 import proxy.BanqueServiceService;
 import proxy.Compte;
-
 import java.util.List;
 
 public class JaxClient {
@@ -14,5 +13,4 @@ public class JaxClient {
             System.out.println(compte.getId() + " | " + compte.getSolde() + " | " + compte.getDate());
         });
     }
-
     }
