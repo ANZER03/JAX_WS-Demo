@@ -1,36 +1,59 @@
+<div align="center">
+
 # WebService with JAX_WS
 
-## 1. Créer un Web service qui permet de :
+</div>
 
-### Convertir un montant de l’auro en DH **
+## Table of Contents
 
-### Consulter un Compte
+1. [Create a Web Service](#1-create-a-web-service)
+2. [Deploy the Web Service](#2-deploy-the-web-service)
+3. [Analyze the WSDL](#3-analyze-the-wsdl)
+4. [Test the Web Service](#4-test-the-web-service)
+5. [Create a SOAP Client](#5-create-a-soap-client)
 
-### Consulter une Liste de comptes
+## 1. Create a Web Service
+
+- Convert an amount from Euro to DH
+- Consult a single account
+- Consult a list of accounts
 
 <img src="./imgs/1.png" />
 
-## 2. Déployer le Web service avec un simple Serveur JaxWS
+## 2. Deploy the Web Service
+
+Deploy the Web Service with a simple JaxWS server.
 
 <img src="./imgs/2.png" />
 
-## 3. Consulter et analyser le WSDL avec un Browser HTTP
+## 3. Analyze the WSDL
+
+Consult and analyze the WSDL with an HTTP browser.
 
 <img src="./imgs/3.png" />
 
-## 4. Tester les opérations du web service avec un outil comme SoapUI ou Oxygen
+## 4. Test the Web Service
 
-### methode conversion :
+Test the operations of the web service with tools like SoapUI or Oxygen.
+
+### Method: Conversion
 
 <img src="./imgs/4_1.png" />
 
-### methode getCompte :
+### Method: getCompte
 
 <img src="./imgs/4_2.png" />
 
-### methode GetComptes :
+### Method: getComptes
 
 <img src="./imgs/4_3.png" />
 
-## 5. Créer un Client SOAP Java
+## 5. Create a SOAP Client
 
+### Create the Proxy
+
+<img src="./imgs/5_2.png" />
+
+### Test the Proxy
+
+<img src="./imgs/5_1.png" />
